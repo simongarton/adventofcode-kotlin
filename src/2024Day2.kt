@@ -55,7 +55,7 @@ class Year2024Day2 {
 
         val lines = mutableListOf<IntArray>()
         File(filename).forEachLine { line ->
-            lines.add(readLevels(line))
+            lines.add(mapLevels(line))
         }
 
         return lines
@@ -90,7 +90,7 @@ class Year2024Day2 {
         return if (one > two) 1 else -1
     }
 
-    private fun readLevels(line: String): IntArray {
+    private fun mapLevels(line: String): IntArray {
 
         val parts = line.split(" ")
         return parts.map { it.toInt() }.toIntArray()

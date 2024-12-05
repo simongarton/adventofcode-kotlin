@@ -1,8 +1,8 @@
 
 class Year2024Day0 {
 
-    val FILENAME = "data/2024/2024-Day1-1.txt"
-    val SAMPLE_FILENAME = "data/2024/2024-Day1-sample.txt"
+    val filename = "data/2024/2024-Day0-1.txt"
+    val sampleFilename = "data/2024/2024-Day0-sample.txt"
 
     fun part1(): String {
 
